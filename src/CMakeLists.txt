@@ -46,7 +46,7 @@ target_include_directories(wplc PUBLIC
   ${LLVM_INCLUDE_DIR}
 )
 
-target_link_libraries(calculator 
+target_link_libraries(wplc 
   PRIVATE
   # ${ANTLR_RUNTIME_LIB}
   # lexparse_lib
