@@ -1,0 +1,149 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "bin",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-bin-Debug-d9d930c29adfb4e01db4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4,
+						6
+					]
+				},
+				{
+					"build" : "bin/lexparse",
+					"jsonFile" : "directory-bin.lexparse-Debug-64a7fdb3ecce81f96e36.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/lexparse",
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "WPL_COMPILER",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "acc_gen::@90a2315b7a9c97cd24d2",
+					"jsonFile" : "target-acc_gen-Debug-ab6a0b233682a08d1b9d.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_parser::@5c864faf09b0c7becbea",
+					"jsonFile" : "target-generate_parser-Debug-c29dcbc5c4651e81ceb5.json",
+					"name" : "generate_parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "intrinsics_gen::@90a2315b7a9c97cd24d2",
+					"jsonFile" : "target-intrinsics_gen-Debug-62cfb57a635e6a38c8d7.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lexparse_lib::@5c864faf09b0c7becbea",
+					"jsonFile" : "target-lexparse_lib-Debug-dad54021f7966f85d909.json",
+					"name" : "lexparse_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "omp_gen::@90a2315b7a9c97cd24d2",
+					"jsonFile" : "target-omp_gen-Debug-19d1190f86048fe19a78.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "parser_lib::@5c864faf09b0c7becbea",
+					"jsonFile" : "target-parser_lib-Debug-7d7515a48eaf98eac906.json",
+					"name" : "parser_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "wplc::@90a2315b7a9c97cd24d2",
+					"jsonFile" : "target-wplc-Debug-ff13239408da737e7ed9.json",
+					"name" : "wplc",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/carter/CS4533/WPL/wplstarter/wplstarter/cmake-build-debug",
+		"source" : "/home/carter/CS4533/WPL/wplstarter/wplstarter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

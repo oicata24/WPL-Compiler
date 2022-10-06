@@ -88,12 +88,12 @@ int main(int argc, const char* argv[]) {
   } else {
     input = new antlr4::ANTLRInputStream(inputString);
   }
-  WPLCLexer lexer(input);
+  WPLLexer lexer(input);
   antlr4::CommonTokenStream tokens(&lexer);
   
   // 2. Create a parser from the token stream
-  WPLCParser parser(&tokens);   
-  WPLCParser::ProgramContext* tree = NULL;
+  WPLParser parser(&tokens);   
+  WPLParser::ProgramContext* tree = NULL;
 
   // // 3. Parse the program and get the parse tree
   // tree = parser.program();
